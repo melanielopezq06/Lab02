@@ -12,18 +12,16 @@ st.set_page_config(
 )
 
 # WELCOME PAGE TITLE
-st.title("Welcome to the Data Dashboard! 📊")
+st.title("🛍️ Web Development Lab02")
+st.header("CS 1301")
+st.subheader("Web Development - Section A")
+st.subheader("Melanie Lopez")
 
-# INTRODUCTORY TEXT
 st.write("""
-This application is designed to collect and visualize data.
-You can navigate to the different pages using the sidebar on the left.
+Welcome to my Streamlit Web Development Lab02 app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
-### How to use this app:
-- **Survey Page**: Go here to input new data into our CSV file.
-- **Visuals Page**: Go here to see the data visualized in different graphs.
-
-This project is part of CS 1301's Lab 2.
+1. **Visuals**: See where my money goes at 5 stores from June to October (from a JSON file) and compare how much people spend at different stores (from the survey's CSV file).
+2. **Survey**: Enter the store you shop at the most and how much you spend there a month. Your answer gets saved and shows up on the Visuals page!
 """)
 
 # OPTIONAL: ADD AN IMAGE
